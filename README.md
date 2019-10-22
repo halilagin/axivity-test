@@ -17,6 +17,8 @@ sh dcterminal.sh
 ```bash
 cd biobankAccelerometerAnalysis
 sh utilities/downloadDataModels.sh
+javac -cp java/JTransforms-3.1-with-dependencies.jar java/*.java
+python3 accProcesspy. data/sample.cwa.gz
 ```
 
 
