@@ -13,6 +13,12 @@ sh dcup.sh
 sh dcterminal.sh
 ```
 
+## Download the sample cwa files
+```bash
+cd biobankAccelerometerAnalysis
+sh utilities/downloadDataModels.sh
+```
+
 
 ## Windows environment
 
