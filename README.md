@@ -14,12 +14,15 @@ git clone https://github.com/halilagin/axivity-test.git
 ## start the docker container (virtual machine)
 
 ```bash
-sh dcup.sh
+docker-compose up -d
+
 ```
 
 ## Attach a terminal to the container 
 ```bash
-sh dcterminal.sh
+docker exec -it radarad-axivity-isolated-test bash
+
+
 ```
 
 ## Download the sample cwa files
